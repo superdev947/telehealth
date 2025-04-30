@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "TeleHealth",
+    "slug": "TeleHealth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon__.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7065E4"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.happy.example.TeleHealth"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.happy.example.TeleHealth",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCfhSyz6dVvBgThpdwN9vsqbvXkRdQ9PVk"
+        }
+      }
+    }
+  }
+}
